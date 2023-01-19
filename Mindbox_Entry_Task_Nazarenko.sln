@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox_Entry_Task_Nazarenk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox_Entry_Task_NazarenkoTests", "Mindbox_Entry_Task_NazarenkoTests\Mindbox_Entry_Task_NazarenkoTests.csproj", "{3B5BA981-30D6-4EB6-B8B8-FDF660E740DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{8DF90812-24CE-4C37-8AA7-86820A2B413D}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery_1.sql = SqlQuery_1.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
