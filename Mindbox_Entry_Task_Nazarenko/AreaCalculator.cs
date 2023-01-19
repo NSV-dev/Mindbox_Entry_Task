@@ -6,14 +6,19 @@
         {
             int sidesQuantity = sides.Length;
 
+            foreach (var a in sides)
+                if (a <= 0)
+                    return 0;
+
+
             if (sidesQuantity == 1)
-                return OneSide(sides[0]);
+                return Math.Round(OneSide(sides[0]), 2);
 
             if (sidesQuantity == 2)
-                return TwoSides(sides[0], sides[1]);
+                return Math.Round(TwoSides(sides[0], sides[1]), 2);
 
             if (sidesQuantity == 3)
-                return ThreeSides(sides);
+                return Math.Round(ThreeSides(sides), 2);
 
             return 0;
         }

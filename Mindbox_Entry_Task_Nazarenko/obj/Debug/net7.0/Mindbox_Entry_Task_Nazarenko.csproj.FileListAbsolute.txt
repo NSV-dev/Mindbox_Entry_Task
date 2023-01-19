@@ -1,0 +1,12 @@
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\bin\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.deps.json
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\bin\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.dll
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\bin\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.pdb
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.csproj.AssemblyReference.cache
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.GeneratedMSBuildEditorConfig.editorconfig
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.AssemblyInfoInputs.cache
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.AssemblyInfo.cs
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.csproj.CoreCompileInputs.cache
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.dll
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\refint\Mindbox_Entry_Task_Nazarenko.dll
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\Mindbox_Entry_Task_Nazarenko.pdb
+D:\хуйня\работа\EntryTask\Mindbox_Entry_Task_Nazarenko\Mindbox_Entry_Task_Nazarenko\obj\Debug\net7.0\ref\Mindbox_Entry_Task_Nazarenko.dll
