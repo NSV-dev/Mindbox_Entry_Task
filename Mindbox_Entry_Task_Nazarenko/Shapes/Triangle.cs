@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mindbox_Entry_Task_Nazarenko
+namespace Mindbox_Entry_Task_Nazarenko.Shapes
 {
-    internal class Shape
+    internal class Triangle
     {
     }
 }
