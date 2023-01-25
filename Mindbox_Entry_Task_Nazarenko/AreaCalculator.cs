@@ -10,22 +10,17 @@
                 if (a <= 0)
                     return 0;
 
-
             if (sidesQuantity == 1)
-                return Math.Round(OneSide(sides[0]), 2);
+                return Math.Round(Shape.Circle(sides[0]), 2);
 
             if (sidesQuantity == 2)
-                return Math.Round(TwoSides(sides[0], sides[1]), 2);
+                return Math.Round(Shape.Quadrangle(sides[0], sides[1]), 2);
 
             if (sidesQuantity == 3)
                 return Math.Round(ThreeSides(sides), 2);
 
             return 0;
         }
-
-        private static double OneSide(double r) => Math.PI * r * r;
-
-        private static double TwoSides(double a, double b) => a * b;
 
         private static double ThreeSides(double[] sides)
         {
