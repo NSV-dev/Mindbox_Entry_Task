@@ -1,4 +1,7 @@
-﻿namespace Mindbox_Entry_Task_Nazarenko.Shapes
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Mindbox_Entry_Task_NazarenkoTests")]
+namespace Mindbox_Entry_Task_Nazarenko.Shapes
 {
     internal class Circle
     {
