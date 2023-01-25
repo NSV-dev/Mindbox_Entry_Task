@@ -4,7 +4,7 @@ namespace Mindbox_Entry_Task_Nazarenko
 {
     public class AreaCalculator
     {
-        public static double CalculateAreaBySides(params double[] sides)
+        public static double AreaBySides(params double[] sides)
         {
             int sidesQuantity = sides.Length;
 
@@ -24,13 +24,13 @@ namespace Mindbox_Entry_Task_Nazarenko
             return 0;
         }
 
-        public static double CalculateCircleArea(double r) 
+        public static double CircleArea(double r) 
             => Circle.Calculate(r);
 
-        public static double CalculateQuadrangleArea(double a, double b) 
+        public static double QuadrangleArea(double a, double b) 
             => Quadrangle.Calculate(a, b);
 
-        public static double CalculateTriangleArea(double a, double b, double c) 
+        public static double TriangleArea(double a, double b, double c) 
             => Triangle.Calculate(a, b, c);
 
         public static bool IsRiaghtTriangle(double a, double b, double c)

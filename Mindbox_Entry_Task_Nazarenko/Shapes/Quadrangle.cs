@@ -8,6 +8,6 @@ namespace Mindbox_Entry_Task_Nazarenko.Shapes
 {
     internal class Quadrangle
     {
-        internal static double Calculate(double a, double b) => Math.Round(a * b, 2);
+        internal static double Calculate(double a, double b) => a > 0 && b > 0 ? Math.Round(a * b, 2) : 0;
     }
 }

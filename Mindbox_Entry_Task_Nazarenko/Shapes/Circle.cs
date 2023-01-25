@@ -2,6 +2,6 @@
 {
     internal class Circle
     {
-        internal static double Calculate(double r) => Math.Round(Math.PI * r * r, 2);
+        internal static double Calculate(double r) => r > 0 ? Math.Round(Math.PI * r * r, 2) : 0;
     }
 }
