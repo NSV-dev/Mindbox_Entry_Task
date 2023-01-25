@@ -23,5 +23,17 @@ namespace Mindbox_Entry_Task_Nazarenko
 
             return 0;
         }
+
+        public static double CalculateCircleArea(double r) 
+            => Circle.Calculate(r);
+
+        public static double CalculateQuadrangleArea(double a, double b) 
+            => Quadrangle.Calculate(a, b);
+
+        public static double CalculateTriangleArea(double a, double b, double c) 
+            => Triangle.Calculate(a, b, c);
+
+        public static bool IsRiaghtTriangle(double a, double b, double c)
+            => Triangle.IsRight(a, b, c);
     }
 }
