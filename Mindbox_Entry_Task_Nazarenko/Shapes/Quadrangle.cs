@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mindbox_Entry_Task_Nazarenko.Shapes
+﻿namespace Mindbox_Entry_Task_Nazarenko.Shapes
 {
     internal class Quadrangle
     {
+        /// <summary>
+        /// Calculate srea of a quadrangle by it's sides
+        /// </summary>
+        /// <param name="a">Side A</param>
+        /// <param name="b">Side B</param>
+        /// <returns>Area of a quadrangle</returns>
         internal static double Calculate(double a, double b) => a > 0 && b > 0 ? Math.Round(a * b, 2) : 0;
     }
 }
