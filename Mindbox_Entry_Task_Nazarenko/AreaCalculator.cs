@@ -29,7 +29,7 @@ namespace Mindbox_Entry_Task_Nazarenko
                 return Circle.Calculate(sides[0]);
 
             if (sidesQuantity == 2)
-                return Quadrangle.Calculate(sides[0], sides[1]);
+                return Rectangle.Calculate(sides[0], sides[1]);
 
             if (sidesQuantity == 3)
                 return Triangle.Calculate(sides[0], sides[1], sides[2]);
@@ -46,13 +46,13 @@ namespace Mindbox_Entry_Task_Nazarenko
             => Circle.Calculate(r);
 
         /// <summary>
-        /// Calculate srea of a quadrangle by it's sides
+        /// Calculate srea of a Rectangle by it's sides
         /// </summary>
         /// <param name="a">Side A</param>
         /// <param name="b">Side B</param>
-        /// <returns>Area of a quadrangle</returns>
-        public static double QuadrangleArea(double a, double b) 
-            => Quadrangle.Calculate(a, b);
+        /// <returns>Area of a Rectangle</returns>
+        public static double RectangleArea(double a, double b) 
+            => Rectangle.Calculate(a, b);
 
         /// <summary>
         /// Calculate area of a triangle by it's sides
