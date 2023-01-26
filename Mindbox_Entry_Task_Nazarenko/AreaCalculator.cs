@@ -23,7 +23,7 @@ namespace Mindbox_Entry_Task_Nazarenko
 
             foreach (var a in sides)
                 if (a <= 0)
-                    return 0;
+                    throw new ArgumentOutOfRangeException("Sides can't be less than zero");
 
             if (sidesQuantity == 1)
                 return Circle.Calculate(sides[0]);
@@ -34,7 +34,7 @@ namespace Mindbox_Entry_Task_Nazarenko
             if (sidesQuantity == 3)
                 return Triangle.Calculate(sides[0], sides[1], sides[2]);
 
-            return 0;
+            throw new Exception("Too much sides");
         }
 
         /// <summary>

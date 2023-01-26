@@ -15,9 +15,9 @@ namespace Mindbox_Entry_Task_Nazarenko.Shapes
         internal static double Calculate(double a, double b, double c)
         {
             if (a <= 0 || b <= 0 || c <= 0)
-                return 0;
+                throw new ArgumentOutOfRangeException("Sides can't be less than zero");
             if (!IsTriangle(a, b, c))
-                return 0;
+                throw new ArgumentException("Given sides must be a triangle");
 
             double p = (a + b + c) / 2;
             return Math.Round(Math.Sqrt(p * (p - a) * (p - b) * (p - c)), 2);
@@ -33,9 +33,9 @@ namespace Mindbox_Entry_Task_Nazarenko.Shapes
         public static bool IsRight(double a, double b, double c)
         {
             if (a <= 0 || b <= 0 || c <= 0)
-                return false;
+                throw new ArgumentOutOfRangeException("Sides can't be less than zero");
             if (!IsTriangle(a, b, c))
-                return false;
+                throw new ArgumentException("Given sides must be a triangle");
 
             if (a > c)
                 (a, c) = (c, a);

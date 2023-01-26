@@ -11,6 +11,7 @@ namespace Mindbox_Entry_Task_Nazarenko.Shapes
         /// <param name="a">Side A</param>
         /// <param name="b">Side B</param>
         /// <returns>Area of a quadrangle</returns>
-        internal static double Calculate(double a, double b) => a > 0 && b > 0 ? Math.Round(a * b, 2) : 0;
+        internal static double Calculate(double a, double b) => a >= 0 && b >= 0 ? 
+            Math.Round(a * b, 2) : throw new ArgumentOutOfRangeException("Sides can't be less than zero");
     }
 }

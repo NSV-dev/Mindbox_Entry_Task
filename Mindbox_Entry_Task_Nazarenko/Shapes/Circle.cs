@@ -10,6 +10,7 @@ namespace Mindbox_Entry_Task_Nazarenko.Shapes
         /// </summary>
         /// <param name="r">Radius</param>
         /// <returns>Area of a circle</returns>
-        internal static double Calculate(double r) => r > 0 ? Math.Round(Math.PI * r * r, 2) : 0;
+        internal static double Calculate(double r) => r > 0 ?
+            Math.Round(Math.PI * r * r, 2) : throw new ArgumentOutOfRangeException("Sides can't be less than zero");
     }
 }
