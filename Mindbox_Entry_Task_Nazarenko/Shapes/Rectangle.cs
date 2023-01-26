@@ -3,7 +3,7 @@
 [assembly: InternalsVisibleTo("Mindbox_Entry_Task_NazarenkoTests")]
 namespace Mindbox_Entry_Task_Nazarenko.Shapes
 {
-    internal class Quadrangle
+    internal class Rectangle
     {
         /// <summary>
         /// Calculate srea of a quadrangle by it's sides
