@@ -19,22 +19,17 @@ namespace Mindbox_Entry_Task_Nazarenko
         /// <returns>Area</returns>
         public static double AreaBySides(params double[] sides)
         {
-            int sidesQuantity = sides.Length;
-
             foreach (var a in sides)
                 if (a <= 0)
                     throw new ArgumentOutOfRangeException("Sides can't be less than zero");
 
-            if (sidesQuantity == 1)
-                return Circle.Calculate(sides[0]);
-
-            if (sidesQuantity == 2)
-                return Rectangle.Calculate(sides[0], sides[1]);
-
-            if (sidesQuantity == 3)
-                return Triangle.Calculate(sides[0], sides[1], sides[2]);
-
-            throw new Exception("Too much sides");
+            return sides.Length switch
+            {
+                1 => Circle.Calculate(sides[0]),
+                2 => Rectangle.Calculate(sides[0], sides[1]),
+                3 => Triangle.Calculate(sides[0], sides[1], sides[2]),
+                _ => throw new Exception("Too much sides")
+            };
         }
 
         /// <summary>
